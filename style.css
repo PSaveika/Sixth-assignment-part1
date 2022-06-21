@@ -1,0 +1,98 @@
+/* STYLE RESET */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    min-width: 300px;
+    max-width: 2600px;
+    overflow: auto;
+    background-color: #f5f5f5;
+    color: #666;
+}
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* PAGE */
+
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+.wrap {
+    max-width: 880px;
+}
+
+article {
+    background: #ffffff;
+    position: relative;
+    height: 340px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-top: 5px solid #0974b3;
+    padding: 20px;
+}
+
+h1 {
+    color: #0974b3;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+article div:nth-of-type(1) {
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+article div:nth-of-type(2) {
+    line-height: 1.1;
+}
+
+article img {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.article-1 {
+    padding: 25px;
+}
+
+.article-2,
+.article-3 {
+    width: 48%;
+    height: 430px;
+}
+
+.article-2 {
+    float: left;
+}
+
+.article-2 img {
+    margin-bottom: 15px;
+}
+
+.article-3 {
+    float: right;
+}
+.article-3 p:nth-of-type(2) {
+    margin-right: 2px;
+}
